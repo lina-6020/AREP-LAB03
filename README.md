@@ -34,19 +34,43 @@ Este servidor tiene la capacidad de entender recursos .html , .js ,.png , .css. 
 * *PNG* ``` http://localhost:35000/imagen1.png ```
 * *SIN RECURSO* ``` http://localhost:35000 ```
 
-### HEROKU
+![image](https://user-images.githubusercontent.com/59893804/135002507-77aa13de-a22c-44b7-90a6-defda60ef058.png)
+
+
+#### HEROKU
+
+* *HTML* ``` https://servidorweb-frameworkioc.herokuapp.com/index.html ```
+* *PNG* ``` https://servidorweb-frameworkioc.herokuapp.com/imagen1.png ```
+* *SIN RECURSO* ``` https://servidorweb-frameworkioc.herokuapp.com ```
 
 Usando POJO Controller se puede acceder a:
 
-### LOCAL
+#### LOCAL
+
 * ``` http://localhost:35000/nspapp/sum``` muestra el resultado de una suma.
-* ```http://localhost:35000/nspapp/sentence``` muestra una frase en pantalla.
+* ``` http://localhost:35000/nspapp/sentence``` muestra una frase en pantalla.
 
-### HEROKU 
+#### HEROKU 
 
+* ``` https://servidorweb-frameworkioc.herokuapp.com/nspapp/sum``` muestra el resultado de una suma.
+
+![image](https://user-images.githubusercontent.com/59893804/135002440-60e2c11d-2130-4666-9da0-ba72b916b0b9.png)
+
+* ``` https://servidorweb-frameworkioc.herokuapp.com/nspapp/sentence``` muestra una frase en pantalla.
+
+![image](https://user-images.githubusercontent.com/59893804/135002394-57f290fe-dc28-4acc-bdf0-6901f373d7e8.png)
+
+
+## Arquitectura 
+Compuesto de:
+
+* Meta-Protocolos de Objetos
+* Reflexión
+* Anotaciones
+* POJO
 
 ## Enlace Heroku
-[![Clientes y Servicios ](https://www.herokucdn.com/deploy/button.png)](https://clientesyservicios-arep.herokuapp.com/index.html)
+[![Servidor Web con Framework IoC ](https://www.herokucdn.com/deploy/button.png)](https://servidorweb-frameworkioc.herokuapp.com/index.html)
 
 ## Licencia
 Ver licencia en LICENCE.txt para más detalles.
